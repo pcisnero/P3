@@ -48,6 +48,7 @@
 
 <a href='/lorem-ipsum'>Go to the App!</a>
 
+
 <br>
 
 <h2 id= "text">Random User Generator</h2>
