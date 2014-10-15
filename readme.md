@@ -19,11 +19,11 @@ see [Project 3](http://p3.dwa15.me)
 ----
 ## Details for teaching teams
 * No test credentials.
-*I included both generators on the landing page.
+* I included both generators on the landing page.
 * I created a CSS folder witha file named "mystyle.css" to add some additional colors.
 
 ----
 ## Outside Code 
-* Bootstrap- Theme: Journal
-*Packagist - Badcow/lorem-ipsum and fzaninotto/faker
+* Bootstrap- Theme: Journal.
+* Packagist - Badcow/lorem-ipsum and fzaninotto/faker.
 *I got the definition of Lorem-Ipsum from Wikipedia.
