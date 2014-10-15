@@ -1,25 +1,29 @@
-## Laravel PHP Framework
+# Lorem-Ipsum Generator/ Random User Generator 
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+----
+## Live URL 
+see [Project 3](http://p3.dwa15.me)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+----
+## Description
+1. A lorem-ipsum generator using lavarel as a framework and a Package from Packagist.org called Badcow.
+"lorem ipsum is a filler text commonly used to demonstrate the graphic elements of a documenet. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout."(Wikipedia)
+2. A random user generator using lavarel as framework and package from Packagist.org called Faker. 
 
-## Official Documentation
+----
+## Demo
+[Demo Project 3](http://p3.dwa15.me)
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+----
+## Details for teaching teams
+* No test credentials.
+*I included both generators on the landing page.
+* I created a CSS folder witha file named "mystyle.css" to add some additional colors.
 
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+----
+## Outside Code 
+* Bootstrap- Theme: Journal
+*Packagist - Badcow/lorem-ipsum and fzaninotto/faker
+*I got the definition of Lorem-Ipsum from Wikipedia.
