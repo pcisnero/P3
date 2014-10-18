@@ -18,6 +18,21 @@ class HomeController extends BaseController {
 	public function showWelcome()
 	{
 		return View::make('hello');
-	}
+	}	
+	
+	
+	//cargamos la vista views/lorem-ipsum.blade.php
+    public function action_index()
+    {
+ 		return View::make('lorem-ipsum'); 
+    }
+	
+	//cargamos la vista views/user-generator.blade.php
+    public function action_user()
+    { 
+        return View::make('user-generator'); 
+    }
+	
 
 }
+
