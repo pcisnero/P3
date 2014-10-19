@@ -23,23 +23,18 @@ $result = $generator->getParagraphs($paragraphs);
 <title>Lorem Ipsum Generator</title>
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>	
-	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/cerulean/bootstrap.min.css" rel="stylesheet">    
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/journal/bootstrap.min.css" rel="stylesheet">    
     <link rel="stylesheet" href="{{ URL::asset('/') }}css/mystyle.css" />
     
 	<!-- estilos y estructura extraída de página de ejemplo-->
-	<style>
-		a:link {text-decoration:underline;}
-		.container {margin-top:15px;}	
-		.paragraphs-output {margin-top:15px;}		
-		input[type=text] {width:35px;}		
-	</style>	
+
 </head>    
 <body>
 
   	<div class='container'>
 	<a href='/'>&larr; Home</a>
 	<h1>Lorem Ipsum Generator</h1>
-	How many paragraphs do you want?
+	
   
   				{{ Form::open() }} 
                 <!--
@@ -56,7 +51,7 @@ $result = $generator->getParagraphs($paragraphs);
                 <label for="paragraphs">Paragraphs</label>
                 -->
                 
-                {{ Form::text( 'paragraphs', '5', array('id' => 'paragraphs', 'maxlength' => 2,)) }} (Max: 99)
+                {{ Form::text( 'paragraphs', '5', array('id' => 'paragraphs', 'maxlength' => 2,)) }} (Maximum: 99)
                 <!--Form::text ('nombre del input', 'Valor', array('id' =>'nombre id', 'propiedad input' => valor) -->
                 <!--Código para definir  el campo (input) 'pharagraphs', en array se definen otras propiedades y valores
                 como id y maxlength (como el ejemplo), los valores texto van entre '' y valores numéricos sin ''.
@@ -107,6 +102,11 @@ $result = $generator->getParagraphs($paragraphs);
 	?>
 		
 	</div>
+      
+            
+               <img src=' {{ URL::asset('images/cat.jpg') }} ' alt='Company Logo'>
+
+
     
 </body>
 </html>

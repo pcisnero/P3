@@ -1,12 +1,14 @@
 #header {
-    background-color:#E8E8E8 ;
+    background-color:#FFFFFF;
     color:white;
     text-align:center;
-    padding:5px;
+    padding:1px;
 }
 
 #footer {
-    background-color:#FF0066;
+    
+    
+    background-color:#FFFFFF;
     color:white;
     clear:both;
     text-align:center;
@@ -19,3 +21,4 @@
     clear:both;
    
 }
+
