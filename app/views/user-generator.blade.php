@@ -36,7 +36,7 @@ $faker = Faker\Factory::create();
 <body>
   	
     <div class='container'>		
-	<a href='/'>&larr; Home</a>	
+	
 	<h1>User Generator</h1>
 	
 				{{ Form::open() }}
@@ -97,9 +97,11 @@ $faker = Faker\Factory::create();
                 <!--
                 Código para cerrar el formulario equivale a: </form> 
                 -->
-                
- 			<hr> <!-- Separador -->
-            	
+                    <hr> <!-- Separador -->
+ 			
+            <a href='/'>&larr; Go Back!</a>	
+        
+        <hr> <!-- Separador -->
      <?php 	
 	 if ($value) {
 	//Condicional para validaciones. 

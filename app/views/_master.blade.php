@@ -10,9 +10,7 @@
 	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/journal/bootstrap.min.css" rel="stylesheet">
     
    <link rel="stylesheet" href="{{ URL::asset('/') }}css/mystyle.css" />.
-	<style>
 
-        	</style>
     
 </head>
     

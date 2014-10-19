@@ -32,7 +32,7 @@ $result = $generator->getParagraphs($paragraphs);
 <body>
 
   	<div class='container'>
-	<a href='/'>&larr; Home</a>
+	
 	<h1>Lorem Ipsum Generator</h1>
 	
   
@@ -74,7 +74,8 @@ $result = $generator->getParagraphs($paragraphs);
                 -->
                 
  		<hr> <!-- Separador -->
-        
+        <a href='/'>&larr; Go back!</a>
+        <hr> <!-- Separador -->
    <?php 
 				
 	if ($value) {
