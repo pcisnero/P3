@@ -14,13 +14,15 @@ see [Project 3](http://p3.dwa15.me)
 
 ----
 ## Demo
-[Demo Project 3](http://p3.dwa15.me)
+[Demo Project 3](http://www.screencast.com/users/PatriciaCisneros/folders/Jing/media/1f68d0d3-e8e7-4e47-80f2-b923ffe6f442)
 
 ----
 ## Details for teaching teams
 * No test credentials.
-* I included both generators on the landing page.
-* I created a CSS folder witha file named "mystyle.css" to add some additional colors.
+* I included the link to both generator on the landing page.
+* I created a CSS folder with the file named "mystyle.css" to add some additional colors.
+*I also added some images.
+* I commented everything in spanish for future reference but I can do it in English too :) 
 
 ----
 ## Outside Code 
